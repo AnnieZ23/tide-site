@@ -30,7 +30,7 @@
   <div class="wrap narrow">
     <a href="index.html" class="back-home">← Back to Tide</a>
     <h1>Tide Privacy Policy</h1>
-    <p class="meta">Effective Date: May 19, 2026 · Last Updated: May 19, 2026</p>
+    <p class="meta">Effective Date: May 19, 2026 · Last Updated: May 20, 2026</p>
     <hr />
 <h2>Welcome</h2>
 <p>This privacy policy explains how Zenkolabs LLC ("we," "us," "our") collects, uses, and protects your information when you use Tide — a cycle tracking app built to help you understand your body's patterns.</p>
@@ -58,7 +58,6 @@
 <h3>Information Stored Locally and Operationally</h3>
 <ul>
 <li><strong>Auth cache:</strong> Sign-in tokens are cached on your device so you don't have to log in each time you open Tide.</li>
-<li><strong>Soft-delete metadata:</strong> When you delete your account, we keep a small soft-delete record for up to 30 days to ensure the purge completes correctly (see "Data Retention").</li>
 </ul>
 <h3>Derived Features</h3>
 <p>Body Connections is a derived view of patterns in your logs, and Tides insights are computed analytics. Both are generated in memory when you open the app — they are not stored on our servers or in your device cache as separate records.</p>
@@ -105,7 +104,7 @@
 <li>It is never used for advertising or marketing</li>
 <li>It is never sold or shared with data brokers</li>
 <li>Access is limited to the minimum necessary to provide the Tide service</li>
-<li>Much of it is cached on your device and synced to Supabase for backup and cross-device access</li>
+<li>Much of it is cached on your device and synced to Supabase for cloud storage and cross-device access</li>
 </ul>
 <p><strong>Tide is a consumer wellness app and is not a HIPAA-covered entity.</strong> While we follow strong privacy and security practices, Tide is not subject to HIPAA regulations. If you have questions about how your health data is handled, please contact us.</p>
 <hr />
@@ -123,7 +122,7 @@
 <p><strong>Access your data.</strong> You can view everything you've entered in Tide at any time within the app.</p>
 <p><strong>Correct your data.</strong> You can edit or update any of your entries directly in the app.</p>
 <p><strong>Request a copy of your data.</strong> Self-serve export is on our roadmap. In the meantime, email us at <a href="mailto:tide@zenkolabs.com">tide@zenkolabs.com</a> and we'll send you a copy of your data within 30 days.</p>
-<p><strong>Delete your data.</strong> You can delete your entire account and all associated data from within the app (Me tab → Delete my account → confirm). See our <a href="delete-account.html">Account Deletion Instructions</a> for full details. You can also email <a href="mailto:tide@zenkolabs.com">tide@zenkolabs.com</a> to request deletion; we process email requests within 30 days.</p>
+<p><strong>Delete your data.</strong> You can delete your entire account and all associated data from within the app (Me tab → Delete account). Deletion is immediate and permanent. See our <a href="delete-account.html">Account Deletion Instructions</a> for the full in-app steps.</p>
 <p><strong>Withdraw consent.</strong> Where we rely on your consent to process health data, you can withdraw it at any time by deleting your account. This won't affect the lawfulness of any processing carried out before withdrawal.</p>
 <hr />
 <h2>CCPA (California Residents)</h2>
@@ -137,15 +136,21 @@
 <h2>Privacy / GDPR Contact</h2>
 <p>Tide is not distributed in the European Economic Area or the United Kingdom, and we do not market the app to users there. We have not appointed an EU representative or a Data Protection Officer. If you believe a privacy question affects you and falls outside the rights described above, email us at <a href="mailto:tide@zenkolabs.com">tide@zenkolabs.com</a> and we'll do our best to help.</p>
 <hr />
-<h2>Data Retention</h2>
-<p>We keep your data for as long as you have an active Tide account. If you delete your account:</p>
+<h2>Data Retention and Account Deletion</h2>
+<p>We keep your data for as long as you have an active Tide account.</p>
+<p><strong>Deleting your account.</strong> You can delete your account at any time from inside the app, under the Me tab. When you delete your account:</p>
 <ul>
-<li>Your account is immediately deactivated and is no longer accessible</li>
-<li>All your stored data is permanently purged 30 days after deletion</li>
-<li>Pseudonymous, aggregated analytics that cannot identify you may be retained indefinitely</li>
-<li>Support correspondence (emails you've sent us) is retained for up to 90 days after account deletion, then deleted</li>
+<li>Your account and all associated data — including cycles, daily logs, sleep entries, pad-change records, and personal settings — are deleted immediately and permanently from our systems.</li>
+<li>There is no grace period. There is no way to recover your data after you delete your account, including by contacting support.</li>
+<li>If you signed in with Apple, we also notify Apple to revoke your Sign in with Apple credentials at the time of deletion.</li>
 </ul>
-<p>See our <a href="delete-account.html">Account Deletion Instructions</a> for full details on what gets deleted and the timeline.</p>
+<p>Tide does not retain backups of individual accounts for restoration. Standard operational database backups exist for disaster recovery only and are not user-accessible.</p>
+<p>A few items have their own retention rules:</p>
+<ul>
+<li>Pseudonymous, aggregated analytics that cannot identify you may be retained indefinitely.</li>
+<li>Support correspondence (emails you've sent us) is retained for up to 90 days after account deletion, then deleted.</li>
+</ul>
+<p>See our <a href="delete-account.html">Account Deletion Instructions</a> for the in-app steps.</p>
 <hr />
 <h2>Children's Privacy</h2>
 <p>Tide is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has created an account, please contact us at <a href="mailto:tide@zenkolabs.com">tide@zenkolabs.com</a> and we will remove the account.</p>
