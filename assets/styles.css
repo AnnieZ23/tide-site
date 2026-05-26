@@ -51,7 +51,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--serif);
-  font-weight: 380;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.015em;
   color: var(--deep);
@@ -113,7 +113,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .hero h1 {
   color: #fff;
   font-size: clamp(2.6rem, 6.4vw, 4.6rem);
-  font-weight: 340;
+  font-weight: 500;
   max-width: 14ch;
   letter-spacing: -0.02em;
 }
@@ -219,7 +219,7 @@ section { padding: clamp(64px, 11vw, 120px) 0; }
 
 /* founder note */
 .founder { background: var(--foam); border:1px solid var(--line); border-radius: var(--r); padding: clamp(36px, 6vw, 64px); box-shadow: var(--shadow); }
-.founder .quote { font-family: var(--serif); font-size: clamp(1.3rem,3vw,1.9rem); font-weight:360; color: var(--deep); line-height:1.4; letter-spacing:-0.01em; }
+.founder .quote { font-family: var(--serif); font-size: clamp(1.3rem,3vw,1.9rem); font-weight:400; color: var(--deep); line-height:1.4; letter-spacing:-0.01em; }
 .founder .sig { margin-top: 28px; color: var(--muted); font-size:0.95rem; }
 .draft-flag { display:inline-block; margin-top:18px; font-size:12px; letter-spacing:0.06em; color:#9A6A1E; background:#FBF0DA; border:1px solid #E9D4A6; padding:5px 11px; border-radius:999px; }
 
